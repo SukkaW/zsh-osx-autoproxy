@@ -43,7 +43,7 @@ if (( $__ZSH_OSX_AUTOPROXY_SOCKS_PROXY_ENABLED )); then
     __ZSH_OSX_AUTOPROXY_SOCKS_PROXY_PORT=${${__ZSH_OSX_AUTOPROXY_SCUTIL_PROXY#*SOCKSPort : }[(f)1]}
     export all_proxy="http://${__ZSH_OSX_AUTOPROXY_SOCKS_PROXY_SERVER}:${__ZSH_OSX_AUTOPROXY_SOCKS_PROXY_PORT}"
     export ALL_PROXY="${all_proxy}"
-elif (( $__ZSH_OSX_AUTOPROXY_HTTP_PROXY_ENABLE )); then
+elif (( $__ZSH_OSX_AUTOPROXY_HTTP_PROXY_ENABLED )); then
     export all_proxy="${http_proxy}"
     export ALL_PROXY="${all_proxy}"
 fi
