@@ -1,6 +1,8 @@
 #!/bin/zsh
-# Auto configure zsh proxy env based on system preferences
+# Auto configure zsh proxy env based on macOS system preferences
 # Sukka (https://skk.moe)
+# Homepage: https://github.com/SukkaW/zsh-osx-autoproxy
+# License: MIT
 
 zsh-osx-autoproxy() {
     emulate -L zsh -o extended_glob
